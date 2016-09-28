@@ -3,18 +3,45 @@
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+}
+
+#left{
+    width: 50%;
+    float: left;
+    height: 50em;
+    overflow: scroll;
+    padding-top: 0px;
+    background-color: #f3f3f3;
     
+}
+
+#right{
+    width: 50%;
+    float: left;
+    height: 50em;
+    overflow: scroll;
     background-color: #f3f3f3;
 }
 
+#right img{
+    width: 100%;
+    height: auto;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
 
 .header {
-    background-color: #f3f3f3;
     padding: 5em 5em 1em 5em;
 }
 
 .intro {
     padding: 0em 5em 0em 5em;
+}
+
+.pictures{
+    padding: 0em 5em 0em 0em;
 }
 
 h1{
@@ -40,3 +67,4 @@ p{
     text-align: left;
     font-weight: 400;
 }
+
