@@ -174,7 +174,7 @@ p{
     margin: 0 auto;
     overflow-y: scroll;
     text-align:center;
-    width: 23%;
+    width: 22%;
 }
 
 #left {
@@ -183,5 +183,5 @@ p{
     float: left;
     height: 100vh;
     overflow-y: scroll;
-    width: 77%;
+    width: 78%;
 }
