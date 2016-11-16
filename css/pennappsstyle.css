@@ -1,0 +1,162 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400i,600,700';
+
+
+body{
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+h1{
+    color: #525957;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+h2{
+    color: #525957;
+    font-size: 23px;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+h3{
+    color: #525957;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 0px;
+}
+
+h4{
+    color: #525957;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+h5{
+    color: #525957;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+a{
+    color: #7fbeb6;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #1265B6;
+    text-decoration: none;
+}
+
+p{
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+.left{
+    float: left;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 275px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 3em 0 3em 0;
+    text-align: center;
+}
+
+.hvr-grow {
+  box-shadow: 0 0 1px transparent;
+  display: inline-block;
+  transform: perspective(1px) translateZ(0);
+  -webkit-transform: perspective(1px) translateZ(0);
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  transition-property: transform;
+  -webkit-transition-property: transform;
+  vertical-align: middle;
+
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  filter: none;
+  -webkit-filter: grayscale(0%); 
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.button {
+    background-color: none;
+    border: none;
+    color: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer{
+    padding: 0em 0.5em 0.5em 1em;
+    bottom: 0;
+    position: absolute;
+}
+
+.content {
+    display: inline-block;
+}
+
+
+.right{
+    background-color: #f3f3f3;
+    height: 100vh;
+    overflow-y: scroll;
+    margin-left: 275px;
+}
+
+.containerRight {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mid {
+    padding: 5em 0 5em 0;
+}
+
+.midInfo {
+    padding: 1em 1em 1em 1em;
+}
+
+#mascot {
+    display: inline-block;
+}
+
+.box {
+    color: #5d5d5d;
+    height: 150px;
+    float:left;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align:right;
+    width: 300px;
+}
+
