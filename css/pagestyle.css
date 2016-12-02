@@ -140,7 +140,8 @@ p{
 
 .containerRight {
     background-color: #f3f3f3;
-    margin: 300px auto;
+    margin: auto;
+    margin-top:300px;
     text-align: center;
 }
 
