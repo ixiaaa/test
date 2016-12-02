@@ -8,14 +8,12 @@ body{
     background-color: #fff;
 }
 
-#landing{
-    height: 100vh;
-}
 
 #hello {
+    margin: 0 auto;
     position: absolute;
-    top: 45%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
 }
@@ -27,8 +25,6 @@ body{
 
 
 .title {
-    margin: 0 auto;
-    padding: 0em 0em 0em 0em;
     color: #5d5d5d;
     font-size: 40px;
     font-weight: 700;
@@ -39,9 +35,6 @@ body{
 .content {
     padding: 1em 0.3em 1em 0.3em;
     margin: 0 auto;
-    width: 250px;
-    height: 300px;
-    display: inline-block;
     vertical-align: top;
     overflow: hidden;
 }
@@ -65,7 +58,7 @@ h1{
 
 h2{
     color: #5d5d5d;
-    font-size: 23px;
+    font-size: 18px;
     font-style: italic;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -112,29 +105,6 @@ p{
 }
 
 
-#stuff {
-    background-color: #fff;
-    padding: 3em 0em 2em 0em;
-    overflow: hidden;
-    text-align: center;
-}
-
-
-.content img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-    opacity:.8;
-}
-.content:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-    opacity:1;
-    
-    
-}
-
 .hvr-grow {
   box-shadow: 0 0 1px transparent;
   display: inline-block;
@@ -144,7 +114,6 @@ p{
   -webkit-transition-duration: 0.4s;
   transition-property: transform;
   -webkit-transition-property: transform;
-  vertical-align: middle;
 
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
@@ -154,24 +123,56 @@ p{
   -webkit-transform: scale(1.1);
 }
 
-#right {
+/*#right {
+    background-color: #f3f3f3;
     float: left;
     height: 100vh;
     margin: 0 auto;
     overflow-y: scroll;
     text-align:center;
-    width: 22%;
-}
+    width: 10%;
+} */
 
 #left {
-    
     background-color: #f3f3f3;
-    float: left;
     height: 100vh;
-    overflow-y: scroll;
-    width: 78%;
+    width: 100%;
+    transition: margin-right .5s;
 }
 
 
 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5em;
+}
 
+.sidenav a {
+    color: #5d5d5d;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #5d5d5d;
+}
+
+.sidenav img{
+    padding-top: 20px;
+    width: 60px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    padding-top: 20px;
+}

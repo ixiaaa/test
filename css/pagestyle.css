@@ -17,11 +17,12 @@ h1{
 
 h2{
     color: #525957;
-    font-size: 23px;
+    font-size: 25px;
     font-style: italic;
     letter-spacing: 1px;
     margin-bottom: 10px;
     margin-top: 0;
+    padding: 10px;
 }
 
 h3{
@@ -71,17 +72,18 @@ p{
     width: 0px;
 }
 
-.left{
+/*.left{
     float: left;
     height: 100vh;
     overflow-y: scroll;
     width: 275px;
-}
+}*/
 
 .container {
     margin: 0 auto;
-    padding: 3em 0 3em 0;
+    padding: 2em 0 3em 0;
     text-align: center;
+    background-color: #fff;
 }
 
 .hvr-grow {
@@ -115,30 +117,40 @@ p{
 }
 
 .footer{
-    padding: 0em 0.5em 0.5em 1em;
+    right: 0;
     bottom: 0;
-    position: absolute;
+    position: fixed;
+    padding: 1em;
 }
 
 .content {
     display: inline-block;
 }
+.content img{
+    padding-left:50px;
+}
 
 
-.right{
+/*.right{
     background-color: #f3f3f3;
     height: 100vh;
     overflow-y: scroll;
     margin-left: 275px;
-}
+}*/
 
 .containerRight {
-    margin: 0 auto;
+    background-color: #f3f3f3;
+    margin: 300px auto;
     text-align: center;
 }
 
+.containerRight img{
+    
+}
+
 .mid {
-    padding: 5em 0 5em 0;
+    margin: 0 auto;
+    padding: 4em 0 4em 0;
 }
 
 .midInfo {
@@ -158,5 +170,94 @@ p{
     letter-spacing: 0.5px;
     text-align:right;
     width: 300px;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5em;
+}
+
+.sidenav a {
+    color: #5d5d5d;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #5d5d5d;
+}
+
+.sidenav img{
+    padding-top: 20px;
+    width: 60px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    color:#fff;
+    height: 300px;
+    z-index: 1000;
+    overflow: hidden;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    transition: height 0.5s;
+    text-align:center;
+
+}
+.header.shrink {
+    height: 110px;
+}
+
+
+.header.shrink h2{
+    font-size: 15px;
+    text-align: left;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.header.shrink h3{
+    font-size:10px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.header.shrink container{
+    padding-top: 0em;
+}
+.header img{
+    width:150px;
+}
+
+.header.shrink img{
+    width: 50px;
+    padding-left:150px;
+    padding-right:25px;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    transition: height 0.5s;
 }
 
