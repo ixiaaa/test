@@ -43,14 +43,20 @@
     width: 400px;
 }
 
+
+    #hello {
+    height: 40vh;
+    text-align: center;
     
+    background-color: #8a90a0;
+}
 }
 
 @media (max-width: 400px) {
     
 h6{
     color: black;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 2px;
     margin: 0;
     font-style: italic;
@@ -80,7 +86,7 @@ h3{
 }
 
 #work {
-    height: 73vh;
+    height: 80vh;
     background-color: #8a90a0;
     text-align: center;
 }
