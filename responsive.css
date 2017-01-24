@@ -43,12 +43,6 @@ h3{
 }
 
 
- #hello {
-    height: 40vh;
-    text-align: center;
-    
-    background-color: #8a90a0;
-}
 }
 
 @media (max-width: 450px) {
@@ -76,13 +70,7 @@ h3{
     text-align: center;
     padding: 0 3em 0 3em;
 }
-    
-#hello {
-    height: 40vh;
-    text-align: center;
-    
-    background-color: #8a90a0;
-}
+  
 
 #work {
     background-color: #8a90a0;
