@@ -103,7 +103,6 @@ p{
 }
 
 #work {
-    height: 50vh;
     background-color: #8a90a0;
     text-align: center;
 }
@@ -160,7 +159,7 @@ svg {
 }
 
 #workList {
-    padding-top: 1em;
+    padding: 1em 0 5em 0 ;
     column-count: 2;
     width: 40em;
     margin: 0 auto;

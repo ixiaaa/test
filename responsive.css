@@ -1,7 +1,6 @@
 @media (max-width: 700px) {
 
 #work {
-    height: 73vh;
     background-color: #8a90a0;
     text-align: center;
 }
@@ -29,7 +28,7 @@
     
 }
     
-    h3{
+h3{
     color: black;
     font-size: 12px;
     font-weight: 300;
@@ -44,7 +43,7 @@
 }
 
 
-    #hello {
+ #hello {
     height: 40vh;
     text-align: center;
     
@@ -52,7 +51,7 @@
 }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     
 h6{
     color: black;
@@ -79,14 +78,13 @@ h3{
 }
     
 #hello {
-    height: 30vh;
+    height: 40vh;
     text-align: center;
     
     background-color: #8a90a0;
 }
 
 #work {
-    height: 80vh;
     background-color: #8a90a0;
     text-align: center;
 }
