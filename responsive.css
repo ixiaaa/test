@@ -1,0 +1,93 @@
+@media (max-width: 700px) {
+
+#work {
+    height: 73vh;
+    background-color: #8a90a0;
+    text-align: center;
+}
+#workList {
+    padding-top: 1em;
+    column-count: 1;
+    margin: 0 auto;
+    width: auto;
+}
+    
+    
+#intro {
+    height: 45vh;
+    text-align: center;
+    padding: 0 2.5em 0 2.5em;
+}
+    
+    h6{
+    color: black;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin: 0;
+    font-style: italic;
+    padding: 6em 0 .5em 0;
+    
+}
+    
+    h3{
+    color: black;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+}    
+    
+    
+
+.img1 {
+    width: 400px;
+}
+
+    
+}
+
+@media (max-width: 400px) {
+    
+h6{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 0;
+    font-style: italic;
+    padding: 6em 0 .5em 0;
+    
+}
+h3{
+    color: black;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+}    
+    
+
+#intro {
+    height: 55vh;
+    text-align: center;
+    padding: 0 3em 0 3em;
+}
+    
+#hello {
+    height: 30vh;
+    text-align: center;
+    
+    background-color: #8a90a0;
+}
+
+#work {
+    height: 73vh;
+    background-color: #8a90a0;
+    text-align: center;
+}
+#workList {
+    padding-top: 1em;
+    column-count: 1;
+    margin: 0 auto;
+    width: auto;
+    }
+}
