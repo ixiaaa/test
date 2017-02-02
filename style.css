@@ -185,3 +185,9 @@ svg {
 #intro {
     
 }
+
+.introText {
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 0 2em 0 2em;
+}
