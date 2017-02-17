@@ -1,172 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i');
 
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400i,600,700';
-
-@import 'https://fonts.googleapis.com/css?family=Vollkorn';
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 
 
 body{
     font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     margin: 0 auto;
+    padding: 0 5em 0 5em;
     overflow-x: hidden;
 }
 
 
 h1{
-    color: #fff;
-    font-size: 30px;
+    font-family: 'Open Sans';
+    font-size: 35px;
     font-style: italic;
     font-weight: 600;
     letter-spacing: 4px;
-    margin-top: 0;
+    margin: 0;
+    padding-bottom: .5em;
 }
 
 
 h2{
-    color: #fff;
-    font-size: 35px;
+    font-family: 'Open Sans';
+    font-size: 25px;
     font-style: italic;
+    font-weight: 600;
     letter-spacing: 4px;
     margin: 0;
-    padding: 2em 2em .5em 0;
-    text-align: right;
+    padding-bottom: .5em;
 }
 
 h3{
-    color: #000;
-    font-size: 25px;
-    font-style: italic;
-    letter-spacing: 4px;
-    margin: 0;
-    padding: 5em 2em .5em 0;
-    text-align: left;
+    
 }
 
 h4 {
-    color: #fff;
+    color: #000;
     font-size: 15px;
-    font-weight: 600;
     letter-spacing: 2px;
-    text-align: center;
     margin-bottom: 0;
-    padding-top: 1em;
+    text-transform: uppercase;
 }
 
 h5{
-    color: #fff;
+    color: #777777;
     font-size: 12px;
+    font-family: 'Open Sans';
     font-weight: 300;
     letter-spacing: 2px;
     margin: 0;
+    text-transform: lowercase;
 }
 
 h6{
-    color: #000;
-    font-size: 20px;
-    font-style: italic;
-    letter-spacing: 2px;
-    margin: 0;
-    padding: 5em 0 .5em 0;
     
 }
 
 h7{
-    color: #fff;
-    font-size: 11px;
-    letter-spacing: 2px;
-    padding: 3em 0 1em 5em;
+       
 }
 
-a{
+a:link{
     color: #73b4bc;
     text-decoration: none;
 }
 
-a:hover {
-  color: #73b4bc;
+a:visited{
+    color: #708C4F;
+    text-decoration: none;
 }
 
-}
+
 p{
-    color: #5d5d5d;
+    color: #000;
     font-size: 14px;
     font-weight: 400;
-    text-align: center;
     letter-spacing: 0.5px;
 }
 
 #hello {
-    background-color: #8a90a0;
-    height: 25vh;
+    background-color: #fff;
+    padding: 5em;
 }
 
-#intro {
-    text-align: center;
+#flower {
+    float: left;
 }
 
-#work {
-    background-color: #8a90a0;
-    text-align: center;
-}
-
-
-#workList {
-    padding: 1em 0 5em 0 ;
-    column-count: 2;
-    width: 40em;
-    margin: 0 auto;
-}
-
-#contact {
-    background-color: black;
-    text-align: center;
-    height: 13.5em;
-}
-
-div {
-  position: relative;
-}
-
-svg {
-  display: block;
-  width: 100%;
-  height: 90px;
-  background: #8a90a0 ;
-}
-
-.image2 {
-  height: 13em;
-  position: absolute;
-  top: 0; bottom: 0;
-  left: 0; right: 0;
-  margin: auto;
-  padding: 10px;
-}
-
-.image1{
-    max-width: 200px;
-}
-
-.image2{
+#helloText {
+    width: 25em;
+    float: right;
+    
     
 }
 
-.introText {
-    max-width: 40em;
-    margin: 0 auto;
-    padding: 0 2em 0 2em;
+.bodySection {
+    padding: 2em 5em 2em 5em;
+}
+.sectionText {
+   
 }
 
-#portfolio { 
-    text-align: center;
-    background-color: #f5f5f5;
+#work {
+    
+}
+#workList {
+    padding: 1em 0em 3em 0em ;
+    column-count: 2;
+    width: 50em;
 }
 
-.workstuff {
-    padding-top: 5em;
+
+#contact {
+    padding-bottom: 3em;
+}
+
+#contactLinks {
+    padding: 2em 0 0 0em;
 }
 
 
-.footer{
+
+.hvr-grow {
+  box-shadow: 0 0 1px transparent;
+  display: inline-block;
+  transform: perspective(1px) translateZ(0);
+  -webkit-transform: perspective(1px) translateZ(0);
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  transition-property: transform;
+  -webkit-transition-property: transform;
+
+}
+.hvr-grow:hover{
+  filter: none;
+  -webkit-filter: grayscale(0%); 
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
 }
 
+.bar {
+    background-color: #000;
+    height: .3em; 
+    width: 30em;
+}
+
+#helloPara {
+    text-align: right;
+}
+
+
+
+.image1 {
+    width: 100px;
+}
+
+#title {
+    padding: 5em;
+}
+
+.sectionWork {
+    padding: 3em;
+}

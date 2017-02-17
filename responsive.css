@@ -1,30 +1,78 @@
-@media (max-width: 700px) {
+@media (max-width: 1100px) {
 
+#hello{
+    padding: 3em 0 0 0;
+}
 
+    
+.bodySection {
+    padding: 2em 2em 2em 2em;
+    overflow-x: hidden;
+}
+    
+#workList {
+    padding: 1em 0em 0em 0em ;
+    column-count: 1;
+    width: 40em;
+}
+
+    
+#title {
+    padding: 5em 0em 2em 0em;
+}
+    
+    
 }
 
 @media (max-width: 450px) {
     
-h6{
-    font-size: 15px;
-    padding: 6em 0 0.5em 0;
     
-}
-    
-
-p{
-    font-size: 12px;
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0 auto;
+    padding: 0;
 }
 
-        
 
-#hello {
-    height: 40vh;
+#hello{
+    padding: 0;
+}
+    
+#helloBar{
+        width: 20em;
+}
+    
+#helloText {
+    padding: 0;
+    float: left;
+    width: 20em;
+}
+
+#helloPara {
+    width: 20em;
+    float: left;
+    text-align: left;
+    padding-left: 2em;
+}
+
+    
+.bodySection {
+    padding: 2em 2em 2em 2em;
+    overflow-x: hidden;
 }
     
 #workList {
-    padding-top: 1em;
+    padding: 1em 0em 0em 0em ;
     column-count: 1;
-    margin: 0 auto;
-    width: auto;
-    }
+    width: 20em;
+}
+
+#title {
+    padding: 5em 2em 2em 2em;
+}
+
+
+#flower {
+    padding: 1em 0 0 1em;
+}
