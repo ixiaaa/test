@@ -10,6 +10,7 @@ body{
     margin: 0 auto;
     padding: 0 5em 0 5em;
     overflow-x: hidden;
+    
 }
 
 
@@ -35,7 +36,12 @@ h2{
 }
 
 h3{
-    
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 h4 {
@@ -57,7 +63,13 @@ h5{
 }
 
 h6{
-    
+    color: #777777;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align:left;
+    text-indent: 5em;
 }
 
 h7{
@@ -82,6 +94,7 @@ p{
     letter-spacing: 0.5px;
 }
 
+
 #hello {
     background-color: #fff;
     padding: 5em;
@@ -94,24 +107,19 @@ p{
 #helloText {
     width: 25em;
     float: right;
-    
-    
 }
 
-.bodySection {
-    padding: 2em 5em 2em 5em;
+#helloPara {
+    text-align: right;
 }
-.sectionText {
-   
-}
+
 
 #work {
-    
 }
+
 #workList {
     padding: 1em 0em 3em 0em ;
-    column-count: 2;
-    width: 50em;
+    column-count: 1;
 }
 
 
@@ -125,6 +133,73 @@ p{
 
 
 
+.bar {
+    background-color: #000;
+    height: .3em; 
+    width: 30em;
+}
+
+img{
+    padding: 0.2em;
+    width: 200px;
+}
+.image1 {
+    width: 410px;
+}
+.image2{
+    width: 325px;
+}
+
+
+
+
+.hidden{
+    display:none;
+}
+
+.right{
+    display:none;
+    
+}
+.full{
+    position: absolute;
+    right: 0;
+}
+
+
+.right2 {
+    float: right;
+    margin: 3em 0em 5em 0;
+    overflow: hidden;
+    text-align: center;
+    width: 40%;
+
+}
+
+.bodySection {
+    padding: 2em;
+    
+}
+
+
+/* Forward */
+.hvr-forward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
+  -webkit-transform: translateX(8px);
+  transform: translateX(8px);
+}
+
+/*Grow*/
 .hvr-grow {
   box-shadow: 0 0 1px transparent;
   display: inline-block;
@@ -136,33 +211,34 @@ p{
   -webkit-transition-property: transform;
 
 }
-.hvr-grow:hover{
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   filter: none;
   -webkit-filter: grayscale(0%); 
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
 }
 
-.bar {
-    background-color: #000;
-    height: .3em; 
-    width: 30em;
+
+#footer {
+    width: 20em;
+    height: 55em;
+    float: left;
+    position:relative;
+    margin-bottom: 7em;
+
 }
 
-#helloPara {
-    text-align: right;
+.footerImg{
+    width: 180px;
+    position: absolute;
+    bottom:0;
+    padding: 2em;
 }
 
-
-
-.image1 {
-    width: 100px;
+.borderCorner{
+    height:2em;
+    width:2em;
+    border-bottom: .3em solid #000;
+    border-left: .3em solid #000;
 }
 
-#title {
-    padding: 5em;
-}
-
-.sectionWork {
-    padding: 3em;
-}

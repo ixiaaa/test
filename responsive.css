@@ -1,32 +1,35 @@
 @media (max-width: 1100px) {
+.left {
+    float: none;}
 
-#hello{
-    padding: 3em 0 0 0;
+.right {
+    display: unset;
+    float: none;}
+    
+    
+.right2{
+    display:none;}
+    
+
+.footer{
+    display: none;}
+
+
+.mobileBody {
+    width: 30em;
+    padding-bottom: 3em;}
+
+h6{
+    text-indent: 0em;
+    padding: 0 1em 0 1em;}
+    
+    
 }
 
-    
-.bodySection {
-    padding: 2em 2em 2em 2em;
-    overflow-x: hidden;
-}
-    
-#workList {
-    padding: 1em 0em 0em 0em ;
-    column-count: 1;
-    width: 40em;
-}
 
-    
-#title {
-    padding: 5em 0em 2em 0em;
-}
-    
-    
-}
 
 @media (max-width: 450px) {
-    
-    
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'PT Sans', sans-serif;
@@ -36,43 +39,47 @@ body{
 
 
 #hello{
-    padding: 0;
-}
-    
-#helloBar{
-        width: 20em;
-}
-    
+    padding:0;}
+
+#flower {
+    padding: 1em 0 0 1em;}
+
 #helloText {
     padding: 0;
     float: left;
-    width: 20em;
-}
+    width: 20em;}
+    
 
+#helloBar{
+        width: 20em;}
+    
 #helloPara {
     width: 20em;
     float: left;
     text-align: left;
-    padding-left: 2em;
-}
-
-    
-.bodySection {
-    padding: 2em 2em 2em 2em;
-    overflow-x: hidden;
-}
+    padding-left: 2em;}
     
 #workList {
     padding: 1em 0em 0em 0em ;
     column-count: 1;
-    width: 20em;
-}
+    width: 20em;}
 
-#title {
-    padding: 5em 2em 2em 2em;
-}
+.image1{
+    width: 80%;}
 
 
-#flower {
-    padding: 1em 0 0 1em;
+.mobileBody {
+    width: 20em;}
+    
+img{
+    padding:0;
+    width:148px;}
+    
+.image1{
+    width: 300px;}
+    
+.image2{
+    width: 300px;}
+    
 }
+
