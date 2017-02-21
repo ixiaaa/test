@@ -242,3 +242,7 @@ img{
     border-left: .3em solid #000;
 }
 
+
+#footerMobile {
+    display: none;
+}
