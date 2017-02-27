@@ -1,3 +1,9 @@
+@media (min-width: 1700px) {
+    body{
+        width: 1700px;
+    }
+}
+
 @media (max-width: 1100px) {
 .left {
     float: none;}
