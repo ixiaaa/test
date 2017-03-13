@@ -64,10 +64,10 @@ h5{
 
 h6{
     color: #777777;
-    font-size: 12px;
+    font-size: 11px;
     font-family: 'Open Sans';
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align:left;
     text-indent: 5em;
 }
@@ -246,3 +246,89 @@ img{
 #footerMobile {
     display: none;
 }
+
+button.accordion {
+    background-color: #fff;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    
+    font-family: 'PT Sans';
+    font-weight: bold;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    transition: 0.4s;
+    text-indent: 1em;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #fff;
+}
+
+button.accordion:after {
+    content: "+";
+    float: left;
+}
+
+button.accordion.active:after {
+    content: "-";
+}
+
+
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+ul{
+    color: #777777;
+    font-size: 11px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align:left;
+}
+
+ul li{
+    padding-bottom: 1em;
+}
+
+
+
+
+
+.wrapper1 {
+    display:inline;
+    position: relative;
+    width: 410px;
+}
+
+.descrip1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+    left: 0;
+  background: #000;
+  color: #fff;
+  display: none;
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+  
+}
+.wrapper1:hover .descrip1 {
+  display: unset;
+  opacity: 1;
+}
+
+
