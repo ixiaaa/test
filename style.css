@@ -68,8 +68,7 @@ h6{
     font-family: 'Open Sans';
     font-weight: 300;
     letter-spacing: 1px;
-    text-align:left;
-    text-indent: 5em;
+    text-align: justify
 }
 
 h7{
@@ -142,6 +141,7 @@ p{
 img{
     padding: 0.2em;
     width: 180px;
+    cursor: pointer;
 }
 .image1 {
     width: 375px;
@@ -172,7 +172,7 @@ img{
     margin: 3em 0em 5em 0em;
     overflow: hidden;
     text-align: center;
-    width: 40%;
+    width: 38%;
 
 }
 
