@@ -72,6 +72,7 @@ h6{
 }
 
 h7{
+    
        
 }
 
@@ -81,7 +82,7 @@ a:link{
 }
 
 a:visited{
-    color: #708C4F;
+    color: #f58972;
     text-decoration: none;
 }
 
@@ -135,19 +136,18 @@ p{
 .bar {
     background-color: #000;
     height: .3em; 
-    width: 30em;
+    width: 440px;
 }
 
 img{
     padding: 0.2em;
-    width: 180px;
-    cursor: pointer;
+    width: 200px;
 }
 .image1 {
-    width: 375px;
+    width: 410px;
 }
 .image2{
-    width: 325px;
+    width: 270px;
 }
 
 
@@ -169,15 +169,16 @@ img{
 
 .right2 {
     float: right;
-    margin: 3em 0em 5em 0em;
+    margin: 3em 5em 5em 0em;
     overflow: hidden;
     text-align: center;
-    width: 38%;
+    width: 40%;
 
 }
 
 .bodySection {
     padding: 2em;
+    
     
 }
 
@@ -371,4 +372,16 @@ ul li{
 }
 #boxPhoto {
     padding-left: 30px;
+}
+
+
+
+.bodySectionPage {
+    padding: 2em 0 2em 10em;
+}
+
+
+#overviewContent img{
+    width: 200px;
+    margin: 10px;
 }

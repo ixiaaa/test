@@ -45,6 +45,7 @@ for (i = 0; i < acc.length; i++) {
   }
 }
 
+/*
 
 $('.right2 img').click(function() {      // When arrow is clicked
     var src = $(this).attr('src');
@@ -93,3 +94,4 @@ $('#close').click(function() {
 });
 
 
+*/
