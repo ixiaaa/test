@@ -95,3 +95,13 @@ $('#close').click(function() {
 
 
 */
+
+
+
+function showGif(x){
+    x.style.opacity = '0';
+}
+
+function hideGif(x){
+    x.style.opacity = '1';
+}

@@ -385,3 +385,10 @@ ul li{
     width: 200px;
     margin: 10px;
 }
+
+.miscArt{
+    position: relative; 
+    width: 250px;
+    height: 450px;
+    float: left;
+}
