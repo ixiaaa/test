@@ -31,6 +31,16 @@
     }
     #menu{
     }
+    
+    img{
+        width: 100%;
+    }
+    .half{
+        width:49%;
+    }
+    .third{
+        width:32%;
+    }
 }
 
 
