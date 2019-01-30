@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i');
-@import url('Bagnard.otf');
-
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -9,13 +7,15 @@ body{
     
 }
 
+@font-face{
+    src:url('Bagnard.otf');
+}
 
 h1{
     font-family: 'Bagnard', serif;
     font-weight: 300;
     font-size: 12px;
     letter-spacing: 0.5px;
-    src: url(Bagnard.otf);
 }
 
 
