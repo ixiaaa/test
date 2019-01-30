@@ -8,7 +8,7 @@ body{
 }
 
 @font-face{
-    src:url('Bagnard.otf');
+    src:url('Bagnard.otf')format("opentype");
 }
 
 h1{
