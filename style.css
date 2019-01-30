@@ -4,182 +4,48 @@
 
 
 
+
+
 body{
     font-family: 'Open Sans', sans-serif;
-    font-family: 'PT Sans', sans-serif;
-    margin: 0 auto;
-    padding: 0 5em 0 5em;
     overflow-x: hidden;
+    margin: 80px 80px 50px 80px;
     
 }
 
 
 h1{
-    font-family: 'Open Sans';
-    font-size: 35px;
-    font-style: italic;
-    font-weight: 600;
-    letter-spacing: 4px;
-    margin: 0;
-    padding-bottom: .5em;
+    font-family: 'Bagnard';
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.5px;
 }
 
 
 h2{
     font-family: 'Open Sans';
-    font-size: 25px;
-    font-style: italic;
-    font-weight: 600;
-    letter-spacing: 4px;
-    margin: 0;
-    padding-bottom: .5em;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-left: 20px;
 }
 
 h3{
-    color: #000;
-    font-size: 15px;
-    letter-spacing: 2px;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-h4 {
-    color: #000;
-    font-size: 15px;
-    letter-spacing: 2px;
-    margin-bottom: 0;
-    text-transform: uppercase;
-}
-
-h5{
-    color: #777777;
-    font-size: 12px;
     font-family: 'Open Sans';
-    font-weight: 300;
+    font-size: 14px;
     letter-spacing: 2px;
-    margin: 0;
-    text-transform: lowercase;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-left: 20px;
 }
-
-h6{
-    color: #777777;
-    font-size: 11px;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    letter-spacing: 1px;
-    text-align: justify
-}
-
-h7{
-    
-       
-}
-
-a:link{
-    color: #73b4bc;
-    text-decoration: none;
-}
-
-a:visited{
-    color: #f58972;
-    text-decoration: none;
-}
-
 
 p{
-    color: #000;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-}
-
-
-#hello {
-    background-color: #fff;
-    padding: 5em;
-}
-
-#flower {
-    float: left;
-}
-
-#helloText {
-    width: 24em;
-    float: right;
-}
-
-#helloPara {
-    text-align: right;
-}
-
-
-#work {
-}
-
-#workList {
-    padding: 1em 0em 3em 0em ;
-    column-count: 1;
-}
-
-
-#contact {
-    padding-bottom: 3em;
-}
-
-#contactLinks {
-    padding: 2em 0 0 0em;
-}
-
-
-
-.bar {
-    background-color: #000;
-    height: .3em; 
-    width: 440px;
-}
-
-img{
-    padding: 0.2em;
-    width: 200px;
-}
-.image1 {
-    width: 410px;
-}
-.image2{
-    width: 270px;
-}
-
-
-
-
-.hidden{
-    display:none;
-}
-
-.right{
-    display:none;
-    
-}
-.full{
-    position: absolute;
-    right: 0;
-}
-
-
-.right2 {
-    float: right;
-    margin: 3em 5em 5em 0em;
-    overflow: hidden;
-    text-align: center;
-    width: 40%;
-
-}
-
-.bodySection {
-    padding: 2em;
-    
-    
+    font-family: 'Open Sans';
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
 
 
@@ -220,175 +86,64 @@ img{
 }
 
 
-#footer {
-    width: 20em;
-    height: 55em;
-    float: left;
-    position:relative;
-    margin-bottom: 7em;
-
-}
-
-.footerImg{
-    width: 180px;
-    position: absolute;
-    bottom:0;
-    padding: 2em;
-}
-
-.borderCorner{
-    height:2em;
-    width:2em;
-    border-bottom: .3em solid #000;
-    border-left: .3em solid #000;
-}
-
-
-#footerMobile {
-    display: none;
-}
-
-button.accordion {
-    background-color: #fff;
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    
-    font-family: 'PT Sans';
-    font-weight: bold;
-    color: #000;
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    transition: 0.4s;
-    text-indent: 1em;
-}
-
-button.accordion.active, button.accordion:hover {
-    background-color: #fff;
-}
-
-button.accordion:after {
-    content: "+";
-    float: left;
-}
-
-button.accordion.active:after {
-    content: "-";
-}
-
-
-
-div.panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
-ul{
-    color: #777777;
-    font-size: 11px;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    letter-spacing: 1px;
-    text-align:left;
-}
-
-ul li{
-    padding-bottom: 1em;
-}
-
-
-
-.wrapper1 {
-    display:inline;
-    position: relative;
-    width: 410px;
-}
-
-.descrip1 {
-  position: absolute;
-  width: 100%;
-  top: 0;
-    left: 0;
-  background: #000;
-  color: #fff;
-  display: none;
-  opacity: 0;
-  transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-  
-}
-.wrapper1:hover .descrip1 {
-  display: unset;
-  opacity: 1;
-}
-
-
-.topButt {
-    padding: 10px 0 5px 0;
-    margin: 50px 50px 20px 50px;
-	display: inline-block;
-    width: 150px;
-    background-color: #7fbeb6;
-    border-radius: 15px;
-}
-
-
-
-.photoBox {
-    width: auto; 
-    height: auto;
-    background-color: rgba(270,270,270, 1);
-    position: sticky;
-    position: -webkit-sticky;
-    display: none;
-    z-index: 1;
-    outline:0;
-    top: 3em;
-    padding: 0 2em 3em 0;
-    border: 3px solid #e3e3e3;
-}
-
-#close {
-    position: relative;
-    font-size: 30px;
-    padding-left: 10px;
-    
-}
-
-
-
-
-.fixPhotoBox{
-    background-color: blue;
+#landing {
     position: fixed;
-}
-#boxPhoto {
-    padding-left: 30px;
-}
-
-
-
-.bodySectionPage {
-    padding: 2em 0 2em 10em;
+    right: 80px;
+    top: 50px;
 }
 
+#menu {
+    position: fixed;
+    left: 80px;
+    top: 80px;
+    width: 150px;
+}
 
-#overviewContent img{
+#menu a{
+    color: #000;
+}
+
+#menu2 {
+    text-align: right;
+    position: fixed;
+    right: 80px;
+    bottom: 50px;
+}
+
+#menu2 a{
+    color: #000;
+}
+
+img {
+
+    width: 50%;
+}
+
+.content {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #f58972;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+
+#flower {
+    text-align: center; 
+    padding-top: 220px;
+}
+#flower img{
     width: 200px;
-    margin: 10px;
 }
 
-.miscArt{
-    position: relative; 
-    width: 206px;
-    height: 450px;
-    float: left;
+.sokocontent{
+    text-align: center;
+}
+.sokocontent img{
+    width: 25%;
 }

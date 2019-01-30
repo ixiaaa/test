@@ -5,92 +5,32 @@
 }
 
 @media (max-width: 1100px) {
-.left {
-    float: none;}
-
-.right {
-    display: unset;
-    float: none;}
-    
-    
-.right2{
-    display:none;}
-    
-
-.footer{
-    display: none;}
-
-
-.mobileBody {
-    width: 30em;
-    padding-bottom: 3em;
+    body{
+        margin: 30px 30px 20px 30px;
     }
-
-h6{
-    text-indent: 0em;
-    padding: 0 1em 0 1em;}
-    
+    #menu{
+        left: 30px;
+    }
+    #menu2{
+        right: 30px;
+    }
+    #landing{
+        top: 0px;
+        right: 30px;
+    }
     
 }
-
 
 
 @media (max-width: 450px) {
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'PT Sans', sans-serif;
-    margin: 0 auto;
-    padding: 0;
+    body{
+        margin-top: 100px;
+    }
+    #flower{
+        display: none;
+    }
+    #menu{
+    }
 }
 
 
-#hello{
-    padding:0;}
-
-#flower {
-    padding: 3em 0 3em 5em;}
-
-#helloText {
-    padding: 0;
-    float: left;
-    width: 20em;}
-    
-
-#helloBar{
-        width: 20em;}
-    
-#helloPara {
-    width: 20em;
-    float: left;
-    text-align: left;
-    padding-left: 2em;}
-    
-#workList {
-    padding: 1em 0em 0em 0em ;
-    column-count: 1;
-    width: 20em;}
-
-.image1{
-    width: 80%;}
-
-
-.mobileBody {
-    width: 20em;}
-    
-img{
-    padding:0;
-    width:148px;}
-    
-.image1{
-    width: 300px;}
-    
-.image2{
-    width: 300px;}
-    
-
-#footerMobile {
-    display:unset;}
-
-    
-}
