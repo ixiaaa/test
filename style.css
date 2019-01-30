@@ -9,7 +9,7 @@ body{
 
 @font-face{
     font-family: "Bagnard";
-    src:url('Bagnard.otf') format("opentype");
+    src: url("Bagnard.otf") format("opentype");
 }
 
 h1{
